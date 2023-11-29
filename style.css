@@ -7,7 +7,7 @@
   
   :root {
     --color-primary: #1e1f23;
-    --color-secondary: #9ba06a;
+    --color-secondary: #7b7a5e;
     --color-white: #FFFFFF;
     --color-black: #000;
     --color-grey0: #f8f8f8;
@@ -22,8 +22,8 @@
   }
   
   .light-mode {
-    --color-primary: #d9d7d7;
-    --color-secondary: #9c9a75;
+    --color-primary: #ececec;
+    --color-secondary: #999878;
     --color-white: #454e56;
     --color-black: #000;
     --color-grey0: #f8f8f8;
@@ -163,7 +163,7 @@
     transition: all 0.4s ease-in-out;
     width: 65%;
     height: 100%;
-    background-color: var(--color-secondary);
+    /* background-color: var(--color-secondary); */
     position: absolute;
     left: 0;
     top: 0;
@@ -183,7 +183,7 @@
     height: 100%;
     object-fit: cover;
     transition: all 0.4s ease-in-out;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
   }
   .header-content .left-header .image img:hover {
     filter: grayscale(0);
