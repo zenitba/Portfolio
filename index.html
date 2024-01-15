@@ -1,372 +1,909 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
+
 <head>
-    <meta charset="UTF-8"> 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <meta name="keywords"
+        content="spatwater, hydroloog, hydrologen, hydrology, klimaatadaptatie, klimaatadaptief, waterkwaliteit, helofytenfilter, aquathermie">
+    <meta name="description"
+        content="SPATwater bestaat uit een nieuwe generatie enthousiaste hydrologen die met een technische achtergrond nét wat anders kijken naar ruimtelijke opgaven. De uitdagingen zijn enorm, maar de kansen die het biedt nog groter.">
+
+    <link rel="shortcut icon" href="assets/img/SPAT_Logo_zondertekst.png" type="image/png">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== GOOGLE ICONS ===============-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="swiper.js" defer></script>
+
+    <!--=============== CSS ===============-->
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+    <!--=============== mixitup JS ===============-->
+    <script src="mix-it-up.js" defer></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="app.js" defer></script>
+
+    <title>SPATwater</title>
 </head>
-<body class="main-content">
-    <header class="container header active" id="home">
-        <div class="header-content">
-            <div class="left-header">
-                <div class="h-shape"></div>
-                <div class="image">
-                    <img src="me.png" alt="">
+
+<body>
+
+
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" class="nav__logo"><img src="assets/img/logo_spatwater.png" alt=""></a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">Over</a>
+                </li>
+
+                <li class="navbar__item">
+                    <a href="#expertise" class="navbar__links" id="expertise-page">Expertise</a>
+                </li>
+
+                <li class="navbar__item">
+                    <a href="#portfolio" class="navbar__links" id="portfolio-page">Projecten</a>
+                </li>
+
+                <li class="navbar__item">
+                    <a href="#scroll-discover" class="navbar__links" id="discover-page">Team</a>
+                </li>
+
+                <li class="navbar__btn">
+                    <a href="#experience" class="button_nav" id="signup-page">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+
+            <section class="parallax">
+                <img src="assets/img/city.png" id="city">
+                <img src="assets/img/water.png" id="water">
+                <img src="assets/img/berg4.png" id="layer1">
+                <img src="assets/img/berg3.png" id="layer2">
+                <img src="assets/img/berg2.png" id="layer3">
+                <img src="assets/img/huis.png" id="layer4">
+                <img src="assets/img/bergje1.png" id="layer5">
+                <div class="home__data" id="text">
+                    <h1 class="home__data-title">Een nieuwe generatie hydrologen</h1>
+                    <span class="home__data-subtitle">Concreet op water en bodem</span>
+                    <h3 class="hero__scroll"><a href="#">scroll <span class="material-symbols-outlined">
+                                arrow_downward
+                            </span></a></h3>
+                </div>
+                <img src="assets/img/grondmobilee.png" id="ground">
+                <img src="assets/img/bird.png" id="bird">
+
+            </section>
+
+
+
+            <section class="parallax2">
+                <img src="assets/img/city-full.png" id="city2">
+                <img src="assets/img/water-full.png" id="water2">
+                <img src="assets/img/berg4-full.png" id="layer1-2">
+                <img src="assets/img/berg3-full.png" id="layer2-2">
+                <img src="assets/img/berg2-full.png" id="layer3-2">
+                <img src="assets/img/huisje-full.png" id="layer4-2">
+                <img src="assets/img/berg1-full.png" id="layer5-2">
+                <div class="home__data2" id="text2">
+                    <h1 class="home__data-title2">Een nieuwe generatie hydrologen</h1>
+                    <span class="home__data-subtitle2">Concreet op water en bodem</span>
+                    <h3 class="hero__scroll2"><a href="#">scroll <span class="material-symbols-outlined">
+                                arrow_downward
+                            </span></a></h3>
+                </div>
+                <img src="assets/img/backgroundfullfinall.png" id="ground2">
+                <img src="assets/img/bird-full.png" id="bird2">
+
+            </section>
+
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title">Over SPATwater</h2>
+                    <p class="about__description">SPATwater bestaat uit een nieuwe generatie enthousiaste
+                        hydrologen
+                        die met een technische
+                        achtergrond nét wat anders kijken naar ruimtelijke opgaven. De uitdagingen zijn enorm, maar
+                        de
+                        kansen die het biedt nog groter. <br>
+                        <br>Met expertise op het gebied van waterkwaliteit, de Kaderrichtlijn Water en
+                        klimaatadaptatie helpt SPATwater overheden en bedrijven om toekomstbestendig en waterrobuust
+                        te
+                        worden.
+                        <br>
+                        <br>
+                        Wij voeren geen analyse uit zonder handelingsperspectief en bieden zowel creatieve als
+                        praktische oplossingen.
+                    </p>
+                    <a href="#expertise" class="button">
+                        <p class="button_text">Onze expertise</p>
+                    </a>
+                </div>
+
+                <div class="about__img">
+                    <div class="about__img-overlay">
+                        <img src="assets/img/tree.png" alt="" class="about__img-one">
+                    </div>
                 </div>
             </div>
-            <div class="right-header">
-                <h1 class="name">
-                    Hi, I'm <span>Zenit Araya.</span>
-                    A Frontend Developer.
-                </h1>
-                <p>
-                    A coding wizard sprinkling pixels and lines of code to make websites that wink at you. Ready to dive into the digital wonderland?
-                </p>
-            </div>
-        </div>
-    </header>
-    <main>
-        <section class="container about" id="about">
-            <div class="main-title">
-                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
-            </div>
-            <div class="about-container">
-                <div class="left-about">
-                    <h4>Information About me</h4>
-                    <p>
-                        Hello there! I'm Zenit Araya, a 23-year-old enthusiast from the vibrant town of Volendam. By day, I bring the magic of traditional costumes to life at our local costume wear shop. If you're ever in the neighborhood, drop by for a delightful photo session in our exquisite attire!
+        </section>
 
-                        Currently, I'm in the final year of my Frontend Design & Development program. Over the past year and a half, I've dived headfirst into a diverse pool of programming languages and technologies. From crafting dynamic, eye-catching websites to manipulating complex data structures, I've thrived in this ever-evolving landscape.
-                        
-                        What sets me apart is my innate ability to swiftly adapt to new tools and technologies. I'm not just a learner; I'm a quick and passionate implementer of cutting-edge tools. 
+        <!-- === EXPERTISE === -->
+
+        <section class="expertise section" id="expertise">
+            <h2 class="section__title">Expertise</h2>
+
+            <div class="expertise__wrapper">
+                <div class="expertise__card">
+                    <img class="expertise3" src="assets/img/Untitled4.png" alt="Illustratie klimaatadaptatie">
+                    <h3>Klimaatadaptatie</h3>
+                    <a href="#klimaat" class="button">
+                        <p class="button_text2">Meer informatie</p>
+                    </a>
+                </div>
+
+                <div class="expertise__card">
+                    <img class="expertise2" src="assets/img/Untitled3.png" alt="Illustratie waterkwaliteit">
+                    <h3>Waterkwaliteit</h3>
+                    <a href="#waterkwaliteit" class="button">
+                        <p class="button_text2">Meer informatie</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- === KLIMAAT === -->
+
+        <section class="klimaat section" id="klimaat">
+            <div class="klimaat__container container grid">
+                <div class="klimaat__data">
+                    <h2 class="section__title klimaat__title">Klimaatadaptatie</h2>
+                    <p class="klimaat__description"><strong>Als meer dan 60% van een gemeente private grond is… dan
+                            is
+                            het noodzakelijk om deze grond
+                            klimaatadaptief te maken.</strong> <br>
+                        <br>
+                        Ons vertrekpunt is dat een groot deel van een gemeente bestaat uit private grond (tuinen,
+                        daken,
+                        bedrijventerreinen) en dat het absoluut noodzakelijk is dat deze private ruimte
+                        klimaatadaptief
+                        ingericht moet worden. Elk perceel vraagt om maatwerk, maar het is onmogelijk om elke tuin
+                        in te
+                        gaan.<br>
+                    <ul class="bullet">
+                        <li>- Hoe los je dit probleem op?</li>
+                        <li>- Hoe zet je subsidiestromen efficiënt in?</li>
+                        <li>- Hoe activeer je bewoners?</li>
+                    </ul>
+                    <br>
+                    </p>
+
+                    <div class="accordion">
+                        <ul class="list-unstyled">
+                            <li>
+
+                                <!-- GEMEENTE -->
+                                <div class="question">
+
+                                    <h3 class="sub__title" id="amsterdam">Gemeente</h3>
+                                    <span class="material-symbols-outlined skills__arrow">
+                                        expand_more
+                                    </span>
+
+                                </div>
+                                <div class="answer">
+                                    <p><strong>Wij kunnen elke bewoner in uw gemeente een persoonlijk klimaatadaptief
+                                            advies geven zonder elke tuin in te gaan.</strong><br>
+                                        <br>
+                                        Wij gebruiken ruimtelijke data en sociale kennis uit de buurt om de gemeente
+                                        gedetailleerd in kaart te brengen. In combinatie met veldwerk kunnen wij op
+                                        postcode, buurt of wijkniveau klimaatadaptieve maatregelen personaliseren en
+                                        prioriteren in de private ruimte. Hiermee maken wij de private ruimte
+                                        waterrobuust,
+                                        waterveilig, hitte- en droogtebestendig.
+                                        <br>
+                                    </p>
+
+                                    <h3 class="projects__title" id="amstelveen"><i class="ri-arrow-right-s-line"></i>
+                                        Project Amstelveen
+                                    </h3>
+                                    <p class="klimaat__description">
+                                        Gemeente Amstelveen heeft SPATwater gevraagd om op een innovatieve,
+                                        creatieve en
+                                        inclusieve manier elke inwoner van Amstelveen een persoonlijk en op maat
+                                        gemaakt
+                                        klimaatadaptief advies te geven. <br>
+
+                                        <br>De samenwerking tussen de gemeente Amstelveen
+                                        en SPATwater heeft geleid tot concrete uitgangspunten om de private ruimte
+                                        verder klimaatadaptief in te richten. Op basis van dit project zijn meerdere
+                                        bewoners aan de slag gegaan met het klimaatadaptief inrichten van hun
+                                        directe
+                                        leefomgeving.
+
+
+                                    <div class="quote__text">
+                                        <h2 class="quote"><i class="ri-double-quotes-l big"></i>Het was een prachtig
+                                            en
+                                            succesvol project, uitstekend
+                                            uitgevoerd
+                                            door
+                                            SPATwater.<i class="ri-double-quotes-r big"></i></h2>
+                                        <h3 class="client">- Beleidsadviseur Riolering en Klimaatadaptatie bij
+                                            Gemeenten
+                                            Amstelveen & Aalsmeer</h3>
+
+
+                                        <!--==================== VIDEO ====================-->
+                                        <div class="video__container container">
+
+                                            <div class="video__content">
+                                                <video id="video-file">
+                                                    <source src="assets/video/SPATwater_Bestendige_Buurt.mp4#t=0.001"
+                                                        type="video/mp4">
+                                                </video>
+
+                                                <button class="button button--flex video__button" id="video-button">
+                                                    <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <h3 class="projects__title" id="amsterdam"><i class="ri-arrow-right-s-line"></i>
+                                            Project Amsterdam
+                                        </h3>
+                                        <p class="klimaat__description">
+                                            Begin 2022 introduceerde Waternet vanuit Amsterdam Rainproof de Rainproof
+                                            Coaches. In dit project is vanuit een wateroverlast knelpunt (de
+                                            rivierenbuurt)
+                                            gekeken hoe de private ruimte klimaatadaptief ingericht kan worden.
+                                            <br>
+                                            <br>
+                                            SPATwater is gevraagd om mee te doen in dit
+                                            project om met bewoners in gesprek te gaan en hun adviezen te
+                                            geven over klimaatadaptatie. Daarnaast heeft SPATwater ook geholpen in de
+                                            communicatie van dit project
+                                            om bewoners te bereiken. Zo zijn er video’s ontwikkelt en heeft SPATwater
+                                            bij
+                                            buurthuizen toelichting gegeven over het belang van klimaatadaptatie en
+                                            mensen
+                                            uitgenodigd om mee te doen met het project.
+                                            <!--==================== VIDEO2 ====================-->
+                                        <div class="video__container2 container">
+
+                                            <div class="video__content2">
+                                                <video id="video-file2">
+                                                    <source
+                                                        src="assets/video/Rainproof Coaches in de Rivierenbuurt! - De Coaches aan het woord.mp4#t=0.001"
+                                                        type="video/mp4">
+                                                </video>
+
+                                                <button class="button button--flex video__button" id="video-button2">
+                                                    <i class="ri-play-mini-line video__button-icon2"
+                                                        id="video-icon2"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                            </li>
+
+                            <!-- BEDRIJVENTERREINEN -->
+                            <li>
+                                <div class="question">
+
+                                    <h3 class="sub__title">Bedrijventerreinen</h3>
+                                    <span class="material-symbols-outlined skills__arrow">
+                                        expand_more
+                                    </span>
+
+                                </div>
+                                <div class="answer">
+                                    <p class="klimaat__description">
+                                        Bedrijventerreinen zijn vaak versteend, privaat terrein met veel oppervlakte. Er
+                                        liggen enorme uitdagingen maar vooral kansen om deze terreinen klimaatbestendig
+                                        in
+                                        te richten en de werkomgeving te verbeteren. <br>
+                                        <br>
+                                        SPATwater richt zich op het activeren
+                                        van werknemers en bedrijven door vraag en aanbod op het gebied van water bij
+                                        elkaar
+                                        te brengen door middel van ruimtelijke data en geeft handvatten om
+                                        bedrijventerreinen te vergroenen.
+                                    </p>
+                                    <strong>Hoe doen wij dit?</strong>
+                                    <ul class="bullet4">
+                                        <li>- Het uitvoeren van stakeholder/netwerk analyses</li>
+                                        <li>- Co-creatie sessies organiseren</li>
+                                        <li>- Het uitvoeren van restwaterscans</li>
+                                        <li>- Het uitvoeren van klimaatanalyses en het koppelen van relevante
+                                            maatregelen
+                                        </li>
+                                    </ul>
+                                    </p>
+
+
+                                    <h3 class="projects__title" id="amsterdam"><i
+                                            class="ri-arrow-right-s-line"></i>Vergoenjewerk.nl
+                                    </h3>
+                                    <p class="klimaat__description">
+                                        SPATwater heeft met hulp van studenten van de MSc MADE, Green Business Club,
+                                        Samen Klimaatbestendig, Waternet en de gemeente amsterdam de online tool
+                                        vergroenjewerk.nl ontwikkeld. <br>
+                                        <br>
+                                        Deze gratis tool biedt in zowel het Engels als
+                                        Nederlands een stapsgewijze aanpak met informatie, een rekentool en een
+                                        communicatietoolkit om bij te dragen aan de transformatie naar groene en
+                                        klimaatadaptieve bedrijventerreinen. De tool is bruikbaar voor elke
+                                        werknemer
+                                        die de werkomgeving wil vergroenen. De tool informeert, inspireert en
+                                        activeert
+                                        om de omslag te maken van grijze bedrijventerreinen met een hoog
+                                        klimaatrisico
+                                        naar groene, koele bedrijventerreinen die de leefomgeving en
+                                        arbeidsproductiviteit vergroten.
+                                        <br>
+                                        <br>
+                                        <strong>Kijk voor meer informatie op: </strong> <a class="link__tool"
+                                            href="https://www.vergroenjewerk.nl/nl"> https://www.vergroenjewerk.nl/nl
+                                        </a>
+                                        <br>
+                                        <br>
+                                        <strong>Zie ook:</strong><a class="link__tool"
+                                            href="https://www.ams-institute.org/news/unleash-the-power-of-sustainability-start-up-booster-alumni-launch-a-game-changing-tool-for-greening-business-parks/">
+                                            AMS
+                                            Institute - Unleash the Power of Sustainability: Start-up Booster Alumni
+                                            launch a game-changing tool for greening business parks.
+                                            (ams-institute.org)
+                                        </a>
+                                        <br>
+
+                                    <h3 class="projects__title" id="amsterdam"><i class="ri-arrow-right-s-line"></i>De
+                                        Waterbank
+                                    </h3>
+                                    <p class="klimaat__description">
+                                        SPATwater is onderdeel van De Waterbank. Binnen deze vereniging
+                                        identificeren we
+                                        kansen voor meer circulair watergebruik met ruimtelijke data. SPATwater
+                                        sluit
+                                        zich aan bij de missie om meer waterbewust te worden en de waterbalans in
+                                        evenwicht te brengen.
+                                        <br>
+                                        <br>
+                                        <strong>Kijk voor meer informatie op <a class="link__tool"
+                                                href="https://www.dewaterbank.nl">www.dewaterbank.nl</a></strong>
+                                        <br>
+                                        <br>
+                                        Benieuwd wat de mogelijkheden zijn binnen jouw bedrijventerrein? Of weet je
+                                        niet
+                                        waar je moet beginnen? Voor zowel particulieren, bedrijven als gemeenten
+                                        ondersteunen we de transitie naar groene bedrijventerreinen.
+                                        <br>
+                                        <br>
+                                        Neem contact op met Jesse Schoenmakers voor meer informatie of een
+                                        kennismakingsgesprek.<br>
+                                        <br>
+                                        <strong><i class="ri-mail-line"></i> jesse.schoenmakers@dewaterbank.nl</strong>
+                                    </p>
+
+                                </div>
+                            </li>
+                            <!-- </ul> -->
+
+
+                    </div>
+                </div>
+        </section>
+
+        <!-- === WATERKWALITEIT === -->
+
+        <section class="waterkwaliteit section" id="waterkwaliteit">
+            <div class="waterkwaliteit__container container grid">
+                <div class="waterkwaliteit__data">
+                    <h2 class="section__title waterkwaliteit__title">Waterkwaliteit</h2>
+                    <p class="waterkwaliteit__description"><strong>Wat betekent de Kaderrichtlijn Water voor jou?
+                        </strong> <br>
+                        <br>
+                        De Kaderrichtlijn Water (KRW) is een Europese richtlijn die regelt dat oppervlaktewateren en het
+                        grondwater van voldoende kwaliteit zijn. Toch voldoen pas enkele wateren aan deze norm. We staan
+                        nu op een keerpunt. Binnen 5 jaar, in 2027, moeten alle oppervlaktewateren en ons grondwater
+                        voldoen aan de KRW. Vergelijkingen met de stikstofcrisis zijn snel gemaakt, maar de KRW biedt
+                        ook kansen in proposities, aanbestedingen en vergunningverlening.
+                        <br>
+                        <br>
+                        SPATwater biedt hulp aan organisaties bij het identificeren van de implicaties van de KRW voor
+                        hun specifieke situatie. Dit doen wij onder andere door middel van:
+                    <ul class="bullet2">
+                        <li>- Het verzorgen van kennissessies</li>
+                        <li>- Analyse van huidige KRW-risico’s en kansen</li>
+                        <li>- Propositieverbetering</li>
+                    </ul>
+                    </p>
+
+                    <h3 class="projects__title2" id="helofytenfilters"><i class="ri-arrow-right-s-line"></i>Onderzoek
+                        naar
+                        helofytenfilters en natuurlijke zuivering
+
+                    </h3>
+                    <p class="klimaat__description">
+                        <br>
+                        In dit onderzoek hebben we de theoretische invloed van seizoenen op de effectiviteit van
+                        helofytenfilters onderzocht. We hebben dit onderzocht door de biodegradatie-efficiëntie van
+                        micro-organismen te meten onder verschillende temperaturen en biocidenconcentraties. Dit
+                        onderzoek
+                        biedt inzicht in de waarde van het gebruik van helofytenfilters voor het zuiveren van vervuild
+                        industriewater en de eventuele inzet van helofytenfilters om waterkwaliteit te verbeteren..
+
+                        <br>
+                        <br>
+                        Meer weten? Neem contact op met Timo van den Berg.<br>
+                        <br>
+                        <strong><i class="ri-mail-line"></i> t.vdberg@spatwater.nl</strong>
+                    </p>
+                    <!-- 
+                    <div class="onderzoek__img">
+                        <img src="assets/img/Constructed wetland with cattail and water birds.png" alt="">
+                    </div> -->
+
+                    <h3 class="projects__title1" id="aquathermie"><i class="ri-arrow-right-s-line"></i>Aquathermie
+
+                    </h3>
+                    <p class="klimaat__description">
+                        <br>
+                        Ontwikkelingen in de Warmtetransitie volgen elkaar razendsnel op. Hoewel er al veel onderzoek
+                        gedaan
+                        is,
+                        ontbreekt er nog veel kennis over de effecten van aquathermie (met name TEO) op de
+                        waterkwaliteit,
+                        zowel
+                        biologisch als chemisch. Er komt meer onderzoek aan, maar de eerste resultaten worden pas over
+                        jaren
+                        verwacht. Ondertussen wachten ruimtelijke opgaven omtrent waterkwaliteit (KRW-doelstellingen)
+                        niet.
+                        <br>
+                        <br>
+                        SPATwater is een expert op het gebied van de Kaderrichtlijn Water-normen en is bezig met het
+                        aanleggen
+                        van een database die mogelijke (Nature-Based-)maatregelen koppelt aan specifieke
+                        verontreinigingen.
+                        De
+                        ontwikkeling en exploitatie van TEO vraagt om een integrale benadering, waarbij draagvlak bij de
+                        bewoners en het waterschap essentieel is.
+                        <br>
+                        <br>
+                        Meer weten? Neem contact op met Mees van Milligen de Wit<br>
+                        <br>
+                        <strong><i class="ri-mail-line"></i> m.vmilligen@spatwater.nl</strong>
+                    </p>
+
+                    <!-- <div class="onderzoek__img">
+                        <img src="assets/img/Aquathermie.png" alt="">
+                    </div> -->
+
+                    <h3 class="projects__title3" id="droogte"><i class="ri-arrow-right-s-line"></i>Europees droogte
+                        onderzoek
+
+                    </h3>
+                    <p class="klimaat__description">
+                        <br>
+                        Ontwikkelingen in de Warmtetransitie volgen elkaar razendsnel op. Hoewel er al veel onderzoek
+                        gedaan
+                        In Europa veroorzaakt droogte miljarden euro's aan schade in verschillende sectoren, zoals
+                        landbouw,
+                        transport, toerisme, watervoorziening en energie/industrie. Om een beter inzicht te krijgen in
+                        de
+                        toekomstige impact van droogte, werken we momenteel samen met de Vrije Universiteit Amsterdam
+                        aan de
+                        ontwikkeling van een droogtemonitor. Deze monitor voorspelt de impact van droogte met een
+                        machine
+                        learning algoritme op Europese schaal. De droogtemonitor biedt beleidsmakers concrete handvatten
+                        voor het nemen van maatregelen.
+
+                        <br>
+                        <br>
+                        Meer weten? Neem contact op met Jesse Schoenmakers<br>
+                        <br>
+                        <strong><i class="ri-mail-line"></i> j.schoenmakers@spatwater.nl</strong>
                     </p>
                 </div>
-                <div class="right-about">
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">45+</p>
-                            <p class="small-text">Projects <br /> Completed</p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">2+</p>
-                            <p class="small-text">Years of <br /> experience</p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">50+</p>
-                            <p class="small-text">Websites <br /> Developed</p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">100%</p>
-                            <p class="small-text">Curious <br /> Lifelong Learner</p>
-                        </div>
-                    </div>
-                </div>
             </div>
-            <div class="about-stats">
-                <h4 class="stat-title">My Skills</h4>
-                <div class="progress-bars">
-                    <div class="progress-bar">
-                        <p class="prog-title">Html</p>
-                        <div class="progress-con">
-                            <p class="prog-text">90%</p>
-                            <div class="progress">
-                                <span class="html"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Css</p>
-                        <div class="progress-con">
-                            <p class="prog-text">90%</p>
-                            <div class="progress">
-                                <span class="css"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Javascript</p>
-                        <div class="progress-con">
-                            <p class="prog-text">50%</p>
-                            <div class="progress">
-                                <span class="js"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Nuxt</p>
-                        <div class="progress-con">
-                            <p class="prog-text">75%</p>
-                            <div class="progress">
-                                <span class="nuxt"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Node</p>
-                        <div class="progress-con">
-                            <p class="prog-text">87%</p>
-                            <div class="progress">
-                                <span class="node"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Svelte</p>
-                        <div class="progress-con">
-                            <p class="prog-text">87%</p>
-                            <div class="progress">
-                                <span class="svelte"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">EJS</p>
-                        <div class="progress-con">
-                            <p class="prog-text">87%</p>
-                            <div class="progress">
-                                <span class="ejs"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">API</p>
-                        <div class="progress-con">
-                            <p class="prog-text">87%</p>
-                            <div class="progress">
-                                <span class="api"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        
             </div>
-        </section>            
-        <section class="container" id="portfolio">
-            <div class="main-title">
-                <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
+
+        </section>
+
+
+        <!-- === PROJECTEN === -->
+        <section class="portfolio bd-container section" id="portfolio">
+            <div class="portfolio__data">
+                <h2 class="portfolio__title">Projecten</h2>
             </div>
-            <p class="port-text">
-                Here is some of my work that I've done in various programming languages.
-            </p>
-            <div class="portfolios">
-                <!-- <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port1.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div> -->
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="spotify.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Spotify Squadpage</h3>
-                        <div class="icons">
-                            <a href="https://proud-gown-crow.cyclic.app" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
+
+
+            <div class="portfolio__nav">
+                <span class="portfolio__item active-portfolio" data-filter=".klimaatadaptatie">Klimaatadaptatie</span>
+                <span class="portfolio__item" data-filter=".waterkwaliteit">Waterkwaliteit</span>
+            </div>
+
+            <div class="portfolio__container bd-grid">
+                <div class="portfolio__content mix klimaatadaptatie">
+                    <img src="assets/img/projects1.png" alt="project 1" class="portfolio__img">
+                    <div class="portfolio__data">
+                        <span class="portfolio__subtitle">Klimaatadaptatie</span>
+
+                        <h2 class="portfolio__name">Gemeente Amstelveen</h2>
+
+                        <p class="portfolio__descr">Gemeente Amstelveen heeft SPATwater gevraagd om op een innovatieve,
+                            creatieve en
+                            inclusieve manier elke inwoner van Amstelveen een persoonlijk en op maat gemaakt
+                            klimaatadaptief advies te geven. </p>
+                        <br>
+                        <!-- <a href="#klimaat" class="button">
+                            <p class="button_text2">Lees meer</p>
+                        </a> -->
                     </div>
                 </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="chatroom.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Chatroom</h3>
-                        <div class="icons">
-                            <a href="https://zenit-chatroom.adaptable.app" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="vini mini.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Vini Mini Chatroom</h3>
-                        <div class="icons">
-                            <a href="https://github.com/zenitba/connecting-people-realtime-web-app" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
+
+                <div class="portfolio__content mix klimaatadaptatie">
+                    <img src="assets/img/projects4.png" alt="project 2" class="portfolio__img">
+                    <div class="portfolio__data">
+                        <span class="portfolio__subtitle">Klimaatadaptatie</span>
+
+                        <h2 class="portfolio__name">Gemeente Amsterdam</h2>
+
+                        <p class="portfolio__descr">Begin 2022 introduceerde Waternet vanuit Amsterdam Rainproof de
+                            Rainproof Coaches. In dit
+                            project is vanuit een wateroverlast knelpunt gekeken hoe de private
+                            ruimte klimaatadaptief ingericht kan worden. </p>
+                        <br>
+                        <!-- <a href="#klimaat" class="button">
+                            <p class="button_text2">Lees meer</p>
+                        </a> -->
                     </div>
                 </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="playstation.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Squadpage</h3>
-                        <div class="icons">
-                            <a href="https://your-tribe-for-life-squad-page-smoky.vercel.app/home/nazneen" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="fivespark.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Fivespark</h3>
-                        <div class="icons">
-                            <a href="https://github.com/zenitba/Fivespark" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
+
+                <div class="portfolio__content mix klimaatadaptatie">
+                    <img src="assets/img/verg.png" alt="project 3" class="portfolio__img">
+                    <div class="portfolio__data">
+                        <span class="portfolio__subtitle">Klimaatadaptatie</span>
+
+                        <h2 class="portfolio__name">Vergroenjewerk.nl</h2>
+
+                        <p class="portfolio__descr">SPATwater heeft met hulp van studenten van de MSc MADE, Green
+                            Business Club, Samen
+                            Klimaatbestendig, Waternet en de gemeente amsterdam de online tool vergroenjewerk.nl
+                            ontwikkeld. De tool is bruikbaar voor elke werknemer die de werkomgeving wil vergroenen.
+                        </p>
+                        <br>
+                        <!-- <a href="#klimaat" class="button">
+                            <p class="button_text2">Lees meer</p>
+                        </a> -->
                     </div>
                 </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="fundaa.png" alt="">
+
+                <div class="portfolio__content mix klimaatadaptatie">
+                    <img src="assets/img/Waterbank_Website.png" alt="project 4" class="portfolio__img">
+                    <div class="portfolio__data">
+                        <span class="portfolio__subtitle">Klimaatadaptatie</span>
+
+                        <h2 class="portfolio__name">De Waterbank</h2>
+
+                        <p class="portfolio__descr">SPATwater is onderdeel van De Waterbank. Binnen deze vereniging
+                            identificeren we kansen
+                            voor meer circulair watergebruik met ruimtelijke data. SPATwater sluit zich aan bij de
+                            missie om meer waterbewust te worden en de waterbalans in evenwicht te brengen. </p>
+                        <br>
+                        <!-- <a href="#klimaat" class="button">
+                            <p class="button_text2">Lees meer</p>
+                        </a> -->
                     </div>
-                    <div class="hover-items">
-                        <h3>Funda</h3>
-                        <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
+                </div>
+
+                <div class="portfolio__content mix waterkwaliteit">
+                    <img src="assets/img/Constructed wetland with cattail and water birds.png" alt="project 3"
+                        class="portfolio__img">
+                    <div class="portfolio__data">
+                        <span class="portfolio__subtitle">Waterkwaliteit</span>
+
+                        <h2 class="portfolio__name">Onderzoek helofytenfilters en natuurlijke zuivering
+                        </h2>
+
+                        <p class="portfolio__descr">In dit onderzoek hebben we de theoretische invloed van seizoenen op
+                            de effectiviteit van helofytenfilters onderzocht. We hebben dit onderzocht door de
+                            biodegradatie-efficiëntie van micro-organismen te meten onder verschillende temperaturen en
+                            biocidenconcentraties.
+                        </p>
+                        <br>
+                        <!-- <a href="#klimaat" class="button">
+                            <p class="button_text2">Lees meer</p>
+                        </a> -->
+                    </div>
+                </div>
+
+                <div class="portfolio__content mix waterkwaliteit">
+                    <img src="assets/img/Droogte.png" alt="project 3" class="portfolio__img">
+                    <div class="portfolio__data">
+                        <span class="portfolio__subtitle">Waterkwaliteit</span>
+
+                        <h2 class="portfolio__name">Europees droogte onderzoek
+                        </h2>
+
+                        <p class="portfolio__descr">In Europa veroorzaakt droogte miljarden euro's aan schade in
+                            verschillende sectoren, zoals landbouw, transport, toerisme, watervoorziening en
+                            energie/industrie. Om een beter inzicht te krijgen in de toekomstige impact van droogte,
+                            werken we momenteel samen met de Vrije Universiteit Amsterdam aan de ontwikkeling van een
+                            droogtemonitor
+                        </p>
+                        <br>
+                        <!-- <a href="#klimaat" class="button">
+                            <p class="button_text2">Lees meer</p>
+                        </a> -->
+                    </div>
+                </div>
+
+                <div class="portfolio__content mix waterkwaliteit">
+                    <img src="assets/img/Aquathermie.png" alt="project 3" class="portfolio__img">
+                    <div class="portfolio__data">
+                        <span class="portfolio__subtitle">Waterkwaliteit</span>
+
+                        <h2 class="portfolio__name">Aquathermie
+                        </h2>
+
+                        <p class="portfolio__descr">SPATwater is een expert op het gebied van de Kaderrichtlijn
+                            Water-normen en is bezig met het aanleggen van een database die mogelijke
+                            (Nature-Based-)maatregelen koppelt aan specifieke verontreinigingen. De ontwikkeling en
+                            exploitatie van TEO vraagt om een integrale benadering, waarbij draagvlak bij de bewoners en
+                            het waterschap essentieel is.
+
+                        </p>
+                        <br>
+                        <!-- <a href="#klimaat" class="button">
+                            <p class="button_text2">Lees meer</p>
+                        </a> -->
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+            </div>
+        </section>
+
+        <!-- === TEAM === -->
+
+        <div id="scroll-discover"></div>
+
+        <section class="discover section" id="discover">
+            <h2 class="section__title">Team</h2>
+
+            <div class="discover__container container_team swiper-container">
+                <div class="swiper-wrapper">
+
+                    <!--==================== MEES ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/mees1.png" alt="foto Mees" class="discover__img">
+                        <!-- <img src="assets/mees_water.png" class="hover_img"> -->
+                        <div class="discover__data">
+                            <h2 class="discover__title">Mees</h2>
+                            <h3 class="discover__description">m.vmilligen@spatwater.nl</h3>
+                        </div>
+                    </div>
+
+                    <!--==================== JESSE ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/timo.png" alt="foto Mees" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Timo</h2>
+                            <h3 class="discover__description">t.vdberg@spatwater.nl</h3>
+                        </div>
+                    </div>
+
+                    <!--==================== TIMO ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/jesse.png" alt="foto Mees" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Jesse</h2>
+                            <h3 class="discover__description">j.schoenmakers@spatwater.nl</h3>
+                        </div>
+                    </div>
+
+                    <!--==================== MEES2 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/stagiar_1.png" alt="foto Mees2" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Mees</h2>
+                            <h3 class="discover__description">m.beaumont@spatwater.nl</h3>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-                               
-        <section class="container contact" id="contact">
-            <div class="contact-container">
-                <div class="main-title">
-                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
-                </div>
-                <div class="contact-content-con">
-                    <div class="left-contact">
-                        <h4>Contact me here</h4>
-                        <p>
-                            Let's team up to make the web more exciting and vibrant! Join forces to create captivating designs and groundbreaking innovations. Together, we'll bring our creative ideas to life and make the digital world a whole lot more awesome!
-                        </p>
-                        <div class="contact-info">
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    <span>Location</span>
-                                </div>
-                                <p>
-                                    Holland, Volendam
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-envelope"></i>
-                                    <span>Email</span>
-                                </div>
-                                <p>
-                                    <span>zenitbereket@gmail.com</span>
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-user-graduate"></i>
-                                    <span>Education</span>
-                                </div>
-                                <p>
-                                    <span>Ad Frontend Design & Development</span>
-                                </p>
-                            </div>
-                            <!-- <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-user-graduate"></i>
-                                    <span>Mobile Number</span>
-                                </div>
-                                <p>
-                                    <span>: 07522670617</span>
-                                </p>
-                            </div> -->
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-globe-africa"></i>
-                                    <span>Languages</span>
-                                </div>
-                                <p>
-                                    <span>Nederlands, English</span>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="contact-icons">
-                            <div class="contact-icon">
-                                <a href="https://github.com/zenitba" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="right-contact">
-                        <form action="" class="contact-form">
-                            <div class="input-control i-c-2">
-                                <input type="text" required placeholder="YOUR NAME">
-                                <input type="email" required placeholder="YOUR EMAIL">
-                            </div>
-                            <div class="input-control">
-                                <input type="text" required placeholder="ENTER SUBJECT">
-                            </div>
-                            <div class="input-control">
-                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
-                            </div>
-                            <div class="submit-btn">
-                        </form>
+        <!-- === TEAM ON BIGGER SCREEN === -->
+
+        <section class="team2 discover" id="team2">
+
+            <h2 class="team2__title">Team</h2>
+
+            <div class="team2__wrapper">
+
+                <div class="team2__mees">
+                    <div class="personal__information">
+                        <h3 class="name">Mees</h3>
+                        <h4 class="mail">m.vmilligen@spatwater.nl</h4>
                     </div>
                 </div>
-            </div> -->
+
+                <div class="team2__timo">
+                    <div class="personal__information">
+                        <h3 class="name">Timo</h3>
+                        <h4 class="mail">t.vdberg@spatwater.nl</h4>
+                    </div>
+                </div>
+
+                <div class="team2__jesse">
+                    <div class="personal__information">
+                        <h3 class="name">Jesse</h3>
+                        <h4 class="mail">j.schoenmakers@spatwater.nl</h4>
+                    </div>
+                </div>
+
+                <div class="team2__mees2">
+                    <div class="personal__information">
+                        <h3 class="name">Mees</h3>
+                        <h4 class="mail">m.beaumont@spatwater.nl</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- === CONTACT === -->
+
+        <section class="contact section" id="experience">
+            <div class="contact__container container grid">
+                <div class="contact__data">
+                    <h2 class="contact_text"> We houden van korte lijntjes, <br class="br1"> jij toch ook?<br>
+                        <br>Kom met ons in gesprek!<br>
+                        <br> <span class="send__us">Stuur ons een mail</span>
+                    </h2>
+                    <p class="mail__text"> <strong>info@spatwater.nl</strong></p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!--==================== SPONSORS ====================-->
+        <section class="sponsor section">
+            <div class="sponsor__container container grid">
+                <div class="sponsor__content">
+                    <img src="assets/img/Logo-Gemeente-Amsterdam.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="assets/img/VU_logo.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="assets/img/logo-gemeente-png.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="assets/img/amsterdam_rainproof_logo_line_2400dpi_colour-1.png" alt=""
+                        class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="assets/img/GBC-Landelijk.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="assets/img/Waterbank.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="assets/img/logo-cra.png" alt="" class="sponsor__img">
+                </div>
+            </div>
         </section>
     </main>
 
-    <div class="controls">
-        <div class="control active-btn" data-id="home" >
-            <i class="fas fa-home"></i>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <div class="footer__data">
+                    <h3 class="footer__title">SPATwater</h3>
+                    <p class="footer__description">Een nieuwe generatie hydrologen
+                    </p>
+                    <div>
+                        <a href="https://www.linkedin.com/company/spatwater/" target="_blank" class="footer__social">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Over</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="#about" class="footer__link">Over ons</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#klimaat" class="footer__link">Klimaatadaptatie</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#waterkwaliteit" class="footer__link">Waterkwaliteit</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#portfolio" class="footer__link">Projecten</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Bedrijf</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="#scroll-discover" class="footer__link">Team</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Contact</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="#experience" class="footer__link">Neem contact op</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__rights">
+                <p class="footer__copy">&#169; 2023 SPATwater. All rights reserved.</p>
+                <div class="footer__terms">
+                    <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                    <a href="#" class="footer__terms-link">Privacy Policy</a>
+                </div>
+            </div>
         </div>
-        <div class="control" data-id="about">
-            <i class="fas fa-user"></i>
-        </div>
-        <div class="control" data-id="portfolio">
-            <i class="fas fa-briefcase"></i>
-        </div>
-      
-        <div class="control" data-id="contact">
-            <i class="fas fa-envelope-open"></i>
-        </div>
-    </div>
-    <div class="theme-btn">
-        <i class="fas fa-adjust"></i>
-    </div>
-    <script src="app.js"></script>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
 </body>
+
 </html>
